@@ -1,6 +1,7 @@
 import {Server} from "@overnightjs/core";
 import {UserController} from "./UserController";
 import cors from 'cors';
+import {PostController} from "./PostController";
 
 export class ReactAPIServer extends Server {
   constructor() {
@@ -18,6 +19,7 @@ export class ReactAPIServer extends Server {
     })
 
     this.addControllers([
+      new PostController(),
       new UserController()
     ]);
   }
