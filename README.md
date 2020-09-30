@@ -1,13 +1,6 @@
 # react-candidate-pairing-session
 A project to be forked and worked on in a pair programming session with interview candidates.
 
-## Tasks
-In this test we will be asking you to:
-
-- Create a new page in the **client** project to display a specific user.
-- Create a new API endpoint in the **server** project to fetch posts for a user.
-- Use that new API endpoint in the **client** project to populate the user page with these posts.
-
 ## API
 
 A list of currently available API endpoints

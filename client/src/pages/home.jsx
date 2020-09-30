@@ -7,15 +7,6 @@ export function Home() {
     <p>This application is designed to show us how you perform as a developer.</p>
 
     <br/>
-    <h5>Tasks</h5>
-    <p>In this test we will be asking you to:</p>
-    <ul>
-      <li>Create a new page in the <b>client</b> project to display a specific user.</li>
-      <li>Create a new API endpoint in the <b>server</b> project to fetch posts for a user.</li>
-      <li>Use that new API endpoint in the <b>client</b> project to populate the user page with these posts.</li>
-    </ul>
-
-    <br/>
     <h5>API</h5>
     A list of currently available API endpoints
     <ul>
