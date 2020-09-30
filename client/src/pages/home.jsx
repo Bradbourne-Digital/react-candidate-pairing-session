@@ -9,10 +9,12 @@ export function Home() {
     <br/>
     <h5>API</h5>
     A list of currently available API endpoints
+    <br/>
+    <br/>
     <ul>
-      <li><pre>http://localhost:8000/user</pre></li>
-      <li><pre>http://localhost:8000/user/[:userId]</pre></li>
-      <li><pre>http://localhost:8000/post/[:postId]</pre></li>
+      <li>Fetch a list of all users (ID and email only)<pre>http://localhost:8000/user</pre></li>
+      <li>Fetch a specific user's full information<pre>http://localhost:8000/user/[:userId]</pre></li>
+      <li>Fetch a blog post<pre>http://localhost:8000/post/[:postId]</pre></li>
     </ul>
 
     <br/>

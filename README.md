@@ -4,10 +4,12 @@ A project to be forked and worked on in a pair programming session with intervie
 ## API
 
 A list of currently available API endpoints
-
-- http://localhost:8000/user
-- http://localhost:8000/user/[:userId]
-- http://localhost:8000/post/[:postId]
+- Fetch a list of all users (ID and email only)
+    - http://localhost:8000/user
+- Fetch a specific user's full information
+    - http://localhost:8000/user/[:userId]
+- Fetch a blog post      
+    - http://localhost:8000/post/[:postId]
 
 ## Technologies
 
